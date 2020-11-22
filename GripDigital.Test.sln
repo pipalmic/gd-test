@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GripDigital.Test", "GripDigital.Test\GripDigital.Test.csproj", "{2837A88D-571E-43C2-887E-760D4F7C0BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GripDigital.Test.Models", "GripDigital.Test.Models\GripDigital.Test.Models.csproj", "{6D9F5DC6-A5F1-4371-BC24-EEA31069D133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GripDigital.Test.Core", "GripDigital.Test.Core\GripDigital.Test.Core.csproj", "{B9AE92B5-2BE8-4751-BD05-E1D69B272DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GripDigital.Test.UnitTests", "GripDigital.Test.UnitTests\GripDigital.Test.UnitTests.csproj", "{FFB21467-7A6F-4E36-BD11-A3E72A6FFB3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2837A88D-571E-43C2-887E-760D4F7C0BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2837A88D-571E-43C2-887E-760D4F7C0BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2837A88D-571E-43C2-887E-760D4F7C0BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2837A88D-571E-43C2-887E-760D4F7C0BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9F5DC6-A5F1-4371-BC24-EEA31069D133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9F5DC6-A5F1-4371-BC24-EEA31069D133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9F5DC6-A5F1-4371-BC24-EEA31069D133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9F5DC6-A5F1-4371-BC24-EEA31069D133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AE92B5-2BE8-4751-BD05-E1D69B272DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AE92B5-2BE8-4751-BD05-E1D69B272DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AE92B5-2BE8-4751-BD05-E1D69B272DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AE92B5-2BE8-4751-BD05-E1D69B272DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB21467-7A6F-4E36-BD11-A3E72A6FFB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB21467-7A6F-4E36-BD11-A3E72A6FFB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB21467-7A6F-4E36-BD11-A3E72A6FFB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB21467-7A6F-4E36-BD11-A3E72A6FFB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
