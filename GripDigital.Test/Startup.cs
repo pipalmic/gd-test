@@ -70,6 +70,7 @@ namespace GripDigital.Test
             
             _container.Register<IMatchRepository, MatchRepository>();
             _container.Register<IUserRepository, UserRepository>();
+            _container.Register<ILeaderboardRepository, LeaderboardRepository>();
 
             var authConfig = Configuration.GetSection(nameof(AuthenticationConfig)).Get<AuthenticationConfig>();
             _container.RegisterInstance(authConfig);

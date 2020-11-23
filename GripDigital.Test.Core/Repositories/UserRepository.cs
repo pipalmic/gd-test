@@ -10,11 +10,12 @@ namespace GripDigital.Test.Core.Repositories
     {
         private static readonly List<User> Users = new List<User>
         {
-            new User(1, "testUser1", ""),
-            new User(2, "testUser2", ""),
-            new User(3, "testUser3", ""),
-            new User(4, "testUser4", ""),
-            new User(5, "testUser5", "")
+            // Heslo123 => $2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6
+            new User(1, "testUser1", "$2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6"),
+            new User(2, "testUser2", "$2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6"),
+            new User(3, "testUser3", "$2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6"),
+            new User(4, "testUser4", "$2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6"),
+            new User(5, "testUser5", "$2a$11$HWQw111.v374W9yovMxItO2sx.o3/gdKq4Ho4s6UYnuZEAuHmj7Q6")
         }; 
         
         public Task<User?> GetByUserName(string userName)

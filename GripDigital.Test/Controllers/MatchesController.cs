@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Net;
-using System.Net.Security;
-using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using GripDigital.Test.Core.Entities;
 using GripDigital.Test.Core.Repositories.Interfaces;
@@ -31,7 +29,7 @@ namespace GripDigital.Test.Controllers
             return Ok(matches);
         }
 
-        // I don't feel this is right, I would expect connection handling on the FE side instead
+        // I'm not a SignalR expert but don't feel this is right, I would expect connection handling on the FE side instead
         [HttpPost("{matchId}/join")]
         [ProducesResponseType(typeof(HubConnection), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> GetConnection(int matchId)

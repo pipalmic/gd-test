@@ -18,7 +18,7 @@ namespace GripDigital.Test.Controllers
             _leaderboardRepository = leaderboardRepository;
         }
 
-        [HttpGet("{gameType")]
+        [HttpGet("{gameType}")]
         public async Task<IActionResult> GetLeaderboard(GameType gameType)
         {
             var leaderboard = await _leaderboardRepository.GetByGameType(gameType);
